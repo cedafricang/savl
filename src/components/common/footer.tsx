@@ -1,6 +1,7 @@
 import MaxContainer from "./max-container";
 import { Link } from "react-router-dom";
 import { Mail, Instagram, Linkedin, Youtube, ArrowUpRight } from "lucide-react";
+import { Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -126,26 +127,38 @@ const Footer = () => {
 
           {/* CONTACT */}
           <div>
-            <h3 className="text-[1.6rem] tracking-wider uppercase text-white/90 mb-6">
-              Contact
-            </h3>
+  <h3 className="text-[1.6rem] tracking-wider uppercase text-white/90 mb-6">
+    Contact
+  </h3>
 
-            <Link
-              to="mailto:projects@savl.pro"
-              className="
-                inline-flex items-center gap-3
-                text-gray-300 text-[1.5rem]
-                hover:text-white transition-colors
-              "
-            >
-              <Mail className="w-5 h-5" />
-              projects@savl.pro
-            </Link>
+  <Link
+    to="mailto:projects@savl.pro"
+    className="
+      inline-flex items-center gap-3
+      text-gray-300 text-[1.5rem]
+      hover:text-white transition-colors
+    "
+  >
+    <Mail className="w-5 h-5" />
+    projects@savl.pro
+  </Link>
 
-            <p className="mt-6 text-gray-400 text-[1.4rem] max-w-[26rem] leading-relaxed">
-              Available for select projects, partnerships, and consultations.
-            </p>
-          </div>
+  <Link
+    to="tel:+19406201504"
+    className="
+      mt-4 flex items-center gap-3
+      text-gray-300 text-[1.5rem]
+      hover:text-white transition-colors
+    "
+  >
+    <Phone className="w-5 h-5" />
+    +1 (940) 620-1504
+  </Link>
+
+  <p className="mt-6 text-gray-400 text-[1.4rem] max-w-[26rem] leading-relaxed">
+    Available for select projects, partnerships, and consultations.
+  </p>
+</div>
         </div>
 
         {/* DIVIDER */}
