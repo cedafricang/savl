@@ -19,7 +19,7 @@ const WhySpecialAVL = () => {
     {
       title: "Global Backing",
       content:
-        "As an extension of Audio Technology, we integrate international excellence with local execution.",
+        "As a design &  engineering partner of Audio Technology, we integrate international excellence with Local execution.",
     },
     {
       title: "Trusted by Industry Leaders",
